@@ -38,8 +38,6 @@ blockquote, q {
     * {
         box-sizing:border-box;
         max-width:100%;
-        border:1px solid grey;
-
     }
 
     /*General Styles*/
@@ -142,21 +140,20 @@ blockquote, q {
        width: 40%;
    }
 
-   span {
-       font-weight: bolder;
+   div span {
+       font-weight: bold;
+       text-decoration: none;
    }
 
-   
-    .footer {
-    width: 100%;
-    }
-
     .footerimage {
-
+        background-image: url("assets/footer_img.jpg");
+        height: 40rem;
+        background-size: cover;
     }
 
     footer {
         background-color: #F9E7DC;
+        padding: 0%;
     }
 
 
