@@ -45,24 +45,30 @@ blockquote, q {
     /*General Styles*/
 
     html {
-        font-size:1.6rem;
+        font-size: 62.5%;
     }
 
     body {
         font-size: 1.6rem;
-        line-height:1.5;
+        line-height: 1.5;
         font-family: 'Roboto Mono', monospace;
     }
     h1{
-        font-family: 'Chelsea Makret', cursive;
-        font-size: 5rem;
+        font-family: 'Chelsea Market', cursive;
+        font-size: 5.5rem;
     }
+    /*font-family: 'Chelsea Market', cursive;
+    font-family: 'Roboto Mono', monospace;*/
+
     section {
         padding: 4% 0;
     }
 
+    /*Header Section*/
+
+
     nav {
-        padding: 0;
+        padding: 2% 0;
     }
 
     nav a {
@@ -82,15 +88,13 @@ blockquote, q {
 
     .blue {
         background-color: #5ed3eb;
-        margin: 0 25%;
+        margin: 0 24%;
     }
 
     .yellow {
         background-color: #ffcd69;
         margin-right: 10%;
     }
-
-    .yellow {}
 
    /* Top section styles*/
 
@@ -116,3 +120,43 @@ blockquote, q {
        position: absolute;
        bottom: 20%;
    }
+
+   /*About Me Section*/
+
+   .second {
+       background-color: #DDB9A3;
+       color: white;
+       text-align: center;
+       margin: 0 4%;
+       padding: 1%;
+   }
+
+   /*Middle section with icons*/
+
+   .middle {
+       text-align: center;
+       margin: 0 35%;
+   }
+
+   .icons {
+       width: 40%;
+   }
+
+   span {
+       font-weight: bolder;
+   }
+
+   
+    .footer {
+    width: 100%;
+    }
+
+    .footerimage {
+
+    }
+
+    footer {
+        background-color: #F9E7DC;
+    }
+
+
